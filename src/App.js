@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Roadmap from './components/Roadmap';
 import FAQs from './components/FAQs';
+import Join from './components/Join';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Main />
       <Roadmap />
       <FAQs />
+      <Join />
     </div>
   );
 }

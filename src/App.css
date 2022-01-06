@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  background-color: rgb(76, 76, 76);
+  background-color: white;
   position: relative;
+  color: black;
 }
 
 a {
