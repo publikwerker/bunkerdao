@@ -3,9 +3,16 @@ header {
     text-align: center;
 }
 
+.header-col {
+    display: inline-block;
+    max-width: 40%;
+    align-items: flex-start;
+}
+
 .header-row {
     width: 90%;
     display: inline-block;
+    align-items: flex-start;
 }
 
 .intro {

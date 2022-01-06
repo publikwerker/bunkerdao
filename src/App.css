@@ -7,15 +7,7 @@
 
 a {
   text-decoration: none;
-  color: whitesmoke;
-}
-
-button {
-  background-color: green;
-  color: white;
-  padding: 16px 24px;
-  border-radius: 5px;
-  border: none;
+  color: black;
 }
 
 .logo {
@@ -28,6 +20,14 @@ nav {
   width: 100%;
   justify-content: space-around;
   top: 0rem;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
 }
 
 section {
