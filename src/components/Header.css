@@ -1,18 +1,25 @@
 header {
     padding-top: 1rem;
     text-align: center;
+    max-width: 100rem;
+    align-items: flex-start;
 }
 
 .header-col {
     display: inline-block;
-    max-width: 40%;
-    align-items: flex-start;
+    max-width: 300px;
+    position: relative;
+    margin: 1rem auto;
+    text-align: left;
+}
+
+.header-image {
+    border-radius: 1rem;
 }
 
 .header-row {
     width: 90%;
     display: inline-block;
-    align-items: flex-start;
 }
 
 .intro {
@@ -21,7 +28,43 @@ header {
     flex-direction: row;
 }
 
+.intro-header {
+    padding-right: 1rem;
+    font-size: 4rem;
+    font-family: 'Atomic Age', cursive;
+}
+
+.logo {
+    font-family: 'Atomic Age', cursive;
+}
+
 p {
     width: 90%;
+    text-align: left;
 
 }
+
+@media only screen and (max-width: 640px) {
+    .intro {
+      flex-direction: column;
+    }
+
+    header {
+        padding-bottom: 0rem;
+    }
+
+    .header-col {
+        display: block;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .header-row {
+        align-items: center;
+        width: 100%;
+    }
+
+    p {
+        padding-left: 2rem;
+    }
+  }

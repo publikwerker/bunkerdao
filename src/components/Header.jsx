@@ -19,7 +19,7 @@ export default class Header extends React.Component {
             <div className="header-row">
               <nav>
                 <a href="/">
-                  <span className='logo'>BunkerDao</span>
+                  <span className='logo'>BunkerDAO</span>
                 </a>
                 <Button color={"green"} text={"Connect Wallet"} callback={maskOnClick}/>
               </nav>
@@ -29,7 +29,7 @@ export default class Header extends React.Component {
                 <h1 className="intro-header">A New Era in Time-Share</h1>
               </div>
               <div className="header-col">
-                <img src="https://via.placeholder.com/150"></img>
+                <img className="header-image" src="https://via.placeholder.com/300.png/09f/fff?text=Snappy+Header+Image" alt="A fancy NFT hovering over a bunker"></img>
               </div>
             </div>
             <div className="header-row">
