@@ -1,16 +1,20 @@
 header {
-    width: 100vw;
     padding-top: 1rem;
     text-align: center;
 }
 
 .header-row {
-    width: 100vw;
-    display: block;
-    min-width: 100vw;
+    width: 90%;
+    display: inline-block;
 }
 
 .intro {
     padding-top: 1rem;
     justify-content: space-around;
+    flex-direction: row;
+}
+
+p {
+    width: 90%;
+
 }
