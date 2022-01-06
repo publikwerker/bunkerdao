@@ -1,0 +1,16 @@
+header {
+    width: 100vw;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.header-row {
+    width: 100vw;
+    display: block;
+    min-width: 100vw;
+}
+
+.intro {
+    padding-top: 1rem;
+    justify-content: space-around;
+}
