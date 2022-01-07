@@ -8,4 +8,10 @@
 .join-title {
     font-size: 4rem;
     font-family: 'Atomic Age', cursive;
+    text-align: center;
+}
+
+.p-join {
+    width: 50%;
+    min-width: 200px;
 }

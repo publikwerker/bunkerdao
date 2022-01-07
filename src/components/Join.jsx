@@ -12,7 +12,7 @@ export default class Join extends React.Component {
         return (
             <section className="join">
                 <h2 className="join-title">Join the Clubhouse</h2>
-                <p>Our Discord community is filled with golfers and leisure enthusiasts of all skill levels - from tour professionals to weekend warriors to friends brand-new to golf! The Discord will be your portal to DAO activity. And you can share your gear, stories and arrange tee times, and more with other community members.</p>
+                <p className="p-join">Our Discord community is filled with golfers and leisure enthusiasts of all skill levels - from tour professionals to weekend warriors to friends brand-new to golf! The Discord will be your portal to DAO activity. And you can share your gear, stories and arrange tee times, and more with other community members.</p>
                 <Button color={"blue"} text={"Join Our Discord"} onClick={joinOnClick} />
             </section>
         )

@@ -1,3 +1,8 @@
+.button-sea {
+    width: 70%;
+    text-align: center;
+}
+
 header {
     padding-top: 1rem;
     text-align: center;
@@ -36,12 +41,6 @@ header {
 
 .logo {
     font-family: 'Atomic Age', cursive;
-}
-
-p {
-    width: 90%;
-    text-align: left;
-
 }
 
 @media only screen and (max-width: 640px) {
