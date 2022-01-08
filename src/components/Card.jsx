@@ -14,7 +14,7 @@ export default class Card extends React.Component {
         console.log("lister", lister);
         return (
             <div className='card'>
-            <a ><img src={this.props.src}></img></a>
+            <a ><img className="card-img" src={this.props.src}></img></a>
             <h2 className='card-title'>{this.props.data.title}</h2>
             <p>{this.props.data.total}</p>
             <p>{this.props.data.text}</p>

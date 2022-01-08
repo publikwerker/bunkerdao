@@ -2,15 +2,12 @@
     padding: 24px 40px;
     border: .5px solid whitesmoke;
     border-radius: 1rem;
-    margin: auto;
-    
-}
-.card-container {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    margin: auto;   
 }
 
+.card-img {
+  max-width: 90%;
+}
 
 @media only screen and (max-width: 600px) {
     .card-container {
