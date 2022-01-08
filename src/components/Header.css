@@ -36,11 +36,10 @@ header {
 .intro-header {
     padding-right: 1rem;
     font-size: 4rem;
-    font-family: 'Atomic Age', cursive;
 }
 
 .logo {
-    font-family: 'Atomic Age', cursive;
+    font-family: 'Spinnaker', sans-serif;
 }
 
 @media only screen and (max-width: 640px) {
