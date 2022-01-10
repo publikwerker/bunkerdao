@@ -4,7 +4,7 @@ import './Main.css';
 const silver = require('./images/vDAOSilver.png');
 const props1 = {
     title: "Silver Card Membership NFT",
-    total: "6.363 total",
+    total: "6,363 total",
     text: "Enjoy the perks of DAObnb including...",
     list: [
         "3 days of free stay in one of our vacation rentals",
