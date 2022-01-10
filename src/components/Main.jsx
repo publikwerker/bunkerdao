@@ -5,10 +5,10 @@ const silver = require('./images/vDAOSilver.png');
 const props1 = {
     title: "Silver Card Membership NFT",
     total: "6.363 total",
-    text: "Enjoy the perks of VacationDAO including...",
+    text: "Enjoy the perks of DAObnb including...",
     list: [
         "3 days of free stay in one of our vacation rentals",
-        "Governance rights via $Vacation token, launching in early 2022",
+        "Governance rights via $bnb token, launching in early 2022",
         "Access and discounts on packages, leisure products, merch, and more",
         "Access to members-only Discord channels, including guest appearances by business, and celebrity luminaries",
         "More to come!"
@@ -20,8 +20,8 @@ const props2 = {
     total: "2,727 total",
     text: "All the perks of a Silver Card Membership plus...",
     list: [
-        "4x the governance rights via $Vacation token, launching in early 2022",
-        "4 additional days of stay at one of our Vacation Rental",
+        "4x the governance rights via $bnb token, launching in early 2022",
+        "4 additional days of stay at one of our vacation rentals",
         "% of profit-sharing based on ownership",
         "Access to rental reciprocity with other Partners who opt-in to participating",
         "More to come!"
