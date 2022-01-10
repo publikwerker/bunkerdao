@@ -19,7 +19,7 @@ export default class Header extends React.Component {
             <div className="header-row">
               <nav>
                 <a href="/">
-                  <span className='logo'>VacationDAO</span>
+                  <span className='logo'>DAObnb</span>
                 </a>
                 <Button color={"green"} text={"Connect Wallet"} callback={maskOnClick}/>
               </nav>
@@ -33,7 +33,7 @@ export default class Header extends React.Component {
               </div>
             </div>
             <div className="header-row">
-              <p><strong>VacationDAO</strong> is reimagining community-managed short-term rental properties. Thousands of members have come together to crowdfund vacation rentals. There are two types of memberships for sale. The Silver Card and the Black Card, both with their own unique perks. 
+              <p><strong>DAObnb</strong> is reimagining community-managed short-term rental properties. Thousands of members have come together to crowdfund vacation rentals. There are two types of memberships for sale. The Silver Card and the Black Card, both with their own unique perks. 
               </p>
             </div>
             <div className="header-row left button-sea">

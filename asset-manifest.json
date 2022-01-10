@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/bunkerdao/static/css/main.3def03ab.css",
-    "main.js": "/bunkerdao/static/js/main.5af7fc54.js",
-    "static/js/787.cbf43ee7.chunk.js": "/bunkerdao/static/js/787.cbf43ee7.chunk.js",
-    "index.html": "/bunkerdao/index.html",
-    "main.3def03ab.css.map": "/bunkerdao/static/css/main.3def03ab.css.map",
-    "main.5af7fc54.js.map": "/bunkerdao/static/js/main.5af7fc54.js.map",
-    "787.cbf43ee7.chunk.js.map": "/bunkerdao/static/js/787.cbf43ee7.chunk.js.map"
+    "main.css": "/daobnb/static/css/main.3def03ab.css",
+    "main.js": "/daobnb/static/js/main.5af7fc54.js",
+    "static/js/787.cbf43ee7.chunk.js": "/daobnb/static/js/787.cbf43ee7.chunk.js",
+    "index.html": "/daobnb/index.html",
+    "main.3def03ab.css.map": "/daobnb/static/css/main.3def03ab.css.map",
+    "main.5af7fc54.js.map": "/daobnb/static/js/main.5af7fc54.js.map",
+    "787.cbf43ee7.chunk.js.map": "/daobnb/static/js/787.cbf43ee7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3def03ab.css",
