@@ -4,11 +4,11 @@ import Main from './components/Main';
 import Roadmap from './components/Roadmap';
 import FAQs from './components/FAQs';
 import Join from './components/Join';
-import Web3ConnectProvider from './providers/Web3ConnectProvider';
+//import Web3ConnectProvider from './providers/Web3ConnectProvider';
 
 function App() {
   return (
-    <Web3ConnectProvider>
+    // <Web3ConnectProvider>
       <div className="App">
         <Header />
         <Main />
@@ -16,7 +16,7 @@ function App() {
         <FAQs />
         <Join />
       </div>
-    </Web3ConnectProvider>
+    // </Web3ConnectProvider>
   );
 }
 

@@ -1,4 +1,4 @@
-import React, { Alert, useState } from 'react';
+import React, { Alert, Dispatch, useState } from 'react';
 import {
   MDBBtn,
   MDBModal,
