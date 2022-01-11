@@ -1,11 +1,15 @@
 import React from "react";
 import Button from './Button';
 import './Header.css';
+import { useWeb3ConnectContext } from '../providers/Web3ConnectProvider.tsx';
 
 
 export default class Header extends React.Component {
 
     render(){
+      
+      const { toogleShowConnectModal } = useWeb3ConnectContext();
+      
       const maskOnClick = () => {
         console.log("Mask onClick fired");
       }
@@ -21,7 +25,7 @@ export default class Header extends React.Component {
                 <a href="/">
                   <span className='logo'>DAObnb</span>
                 </a>
-                <Button color={"green"} text={"Connect Wallet"} callback={maskOnClick}/>
+                <Button color={"green"} text={"Connect Wallet"} callback={toogleShowConnectModal}/>
               </nav>
             </div>
             <div className="header-row intro">
